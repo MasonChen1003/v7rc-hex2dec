@@ -8,7 +8,7 @@ namespace HEX2DEC {
         
     //% blockId="hex2dec_func" block="convert HEX %hex_in | to DEC"
     //% weight=90
-    export function hex2dec_func(hex_in: string): void {
+    export function hex2dec_func(hex_in: string): number  {
        dec_out = 0
         for (let bit = 0; bit <= hex_in.length - 1; bit++) {
             let char = hex_in.charAt(hex_in.length - 1 - bit)
