@@ -12,11 +12,11 @@ namespace HEX2DEC {
        dec_out = 0
         for (let bit = 0; bit <= hex_in.length - 1; bit++) {
             let char = hex_in.charAt(hex_in.length - 1 - bit)
-            for (let ii = 0; ii <= 15; ii++) {
-                if (char.compare(hex_array.charAt(ii)) == 0) {
-                    dec_out = dec_out + ii * Math.pow(16, bit)
-                }
-            }
+              for (let ii = 0; ii < 16; ii++) {
+                   if (char.compare(hex_array.charAt(ii)) == 0) {
+                      dec_out = dec_out + ii * Math.pow(16, bit)
+                   }
+              }
         }
         return dec_out
     }
