@@ -6,7 +6,7 @@ namespace HEX2DEC {
     let hex_array = [0123456789abcdef]
     let dec_out = 0   
         
-    //% blockId="set_offset" block="convert HEX %hex_in | to DEC"
+    //% blockId="hex2dec_func" block="convert HEX %hex_in | to DEC"
     //% weight=90
     export function hex2dec_func(hex_in: string): void {
        dec_out = 0
