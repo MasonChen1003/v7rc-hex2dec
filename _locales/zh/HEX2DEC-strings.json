@@ -1,4 +1,4 @@
 {    
     "HEX2DEC|block": "HEX2DEC",
-    "HEX2DEC.hex2dec_func|block": "HEC - |%hex_in 轉成 DEC"
+    "HEX2DEC.hex2dec_func|block": "HEX - |%hex_in 轉成 DEC"
 }
