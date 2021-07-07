@@ -1,6 +1,6 @@
 // HEX2DEC function 
 // FB link : https://www.facebook.com/mason.chen.1420
-//% weight=12 color=#ff8533 icon="\uf2d6" block="Shiun robot"
+//% weight=12 color=#ff8533 icon="\uf2d6" block="HEX2DEC"
 namespace HEX2DEC {
         
     let hex_array = [0123456789abcdef]
