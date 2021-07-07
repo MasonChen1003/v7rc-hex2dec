@@ -17,6 +17,10 @@
 ===================================================
 ![image](example.png)
 
+V7RC 專家模式- 範例程式
+
+![image](v7rc_ss8_test.png)
+
 ## License
 
 Author : Mason Chen
