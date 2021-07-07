@@ -1,7 +1,7 @@
 {
     "name": "HEX2DEC",
     "version": "1.0.0",
-    "description": "Extension for V7RC-HEX2DEC by Mason,
+    "description": "Extension for V7RC-HEX2DEC by Mason",
     "license": "MIT", 
     "dependencies": {
         "core": "*"
