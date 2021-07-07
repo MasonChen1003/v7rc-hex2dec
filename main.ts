@@ -3,7 +3,7 @@
 //% weight=12 color=#ff3333 icon="\uf2d6" block="HEX2DEC"
 namespace HEX2DEC {
         
-    let hex_array = "0123456789abcdef"
+    let hex_array = "0123456789ABCDEF"
     let dec_out = 0   
         
     //% blockId="hex2dec_func" block="convert HEX %hex_in | to DEC"
